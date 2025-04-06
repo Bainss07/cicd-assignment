@@ -22,7 +22,7 @@ pipeline {
             steps {
                 echo 'Deploying to Netlify...'
                 bat 'npm install -g netlify-cli'
-                bat 'netlify deploy --prod --dir=build'
+                bat '"C:\\Users\\saman\\AppData\\Roaming\\npm\\netlify.cmd" deploy --prod --dir=build'
             }
         }
     }
